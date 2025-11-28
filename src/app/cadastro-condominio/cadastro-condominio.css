@@ -4,7 +4,6 @@
     padding-top: 50px;
 }
 
-/* Caixa principal */
 .main-box {
     background: #fff;
     border: 2px solid #e6e6e6;
@@ -12,13 +11,11 @@
     padding: 20px;
 }
 
-/* Título */
 h1 {
     font-size: 32px;
     margin-bottom: 40px;
 }
 
-/* Grid do formulário */
 .form-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -26,7 +23,6 @@ h1 {
     margin-bottom: 40px;
 }
 
-/* Inputs */
 .form-group {
     display: flex;
     flex-direction: column;
@@ -52,7 +48,6 @@ input {
     font-size: 16px;
 }
 
-/* Botão */
 .btn {
     padding: 12px 35px;
     background: #000;
