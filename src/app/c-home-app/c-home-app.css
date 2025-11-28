@@ -1,109 +1,40 @@
-/* ---------- CONTEÚDO PRINCIPAL ---------- */
 .content {
     flex: 1;
     background-color: #f2f2f2;
-
 }
 
-.faixa-superior{
+.faixa-superior {
     height: 80px;
     width: calc(100% - 80px);
     background-color: white;
     margin-left: 80px;
     margin-bottom: 40px;
-
-    display: flex;               
+    display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
-/* ---------- TOPO ---------- */
-
 .top-wrapper {
-    border-radius: 25px;  
+    border-radius: 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    align-content: center;
-    
-
 }
 
-.condo-box,
 .user-box {
     border: 2px solid #000;
     padding: 10px 25px;
     border-radius: 20px;
     font-size: 16px;
-
+    cursor: pointer;
     margin: 15px;
-    
 }
 
-.user-box:hover  {
+.user-box:hover {
     background: #ffffff;
     transform: scale(1.05);
 }
 
-/* ---------- CARDS ---------- */
-.cards-container {
-    border: 2px solid #e6e6e6;
-    padding: 20px;
-    border-radius: 20px;
-    background-color: #fff;
-    margin: 20px;
-}
-
-.cards {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 40px;
-    padding: 20px;
-}
-
-.card {
-    width: 320px;
-    background: #fff;
-    border: 2px solid #000;
-    border-radius: 20px;
-    text-align: center;
-    padding: 20px;
-}
-
-.card img {
-    width: 80px;
-    margin-bottom: 10px;
-}
-
-.card p {
-    font-size: 18px;
-    font-weight: bold;
-}
-
-/* ---------- TABELA ---------- */
-.table-box h3 {
-    margin-bottom: 15px;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    background: #fff;
-    font-size: 16px;
-}
-
-th, td {
-    border: 2px solid #000;
-    padding: 15px;
-}
-
-tbody tr:nth-child(even) {
-    background: #d3d3d3;
-}
-
-/* ############## SIDEBAR ##########*/
-
-/* SIDEBAR */
 .sidebar {
     width: 80px;
     height: 100vh;
@@ -114,50 +45,17 @@ tbody tr:nth-child(even) {
     position: fixed;
     top: 0;
     left: 0;
-    
 }
-
-/* BLOCO */
 
 .menu-item-logo {
     width: 80px;
     height: 80px;
     background: #000;
-    
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    
     cursor: pointer;
     transition: 0.2s ease;
-}
-
-.menu-item {
-    width: 80px;
-    height: 80px;
-    background: #ffffff;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-    cursor: pointer;
-    transition: 0.2s ease;
-}
-
-/* ÍCONES EMOJI */
-.menu-item .icon {
-    font-size: 35px;
-    margin-bottom: 4px;
-}
-
-/* TEXTO */
-.menu-item p {
-    font-size: 11px;
-    margin: 0;
-    text-align: center;
 }
 
 .logo-icon {
@@ -165,13 +63,35 @@ tbody tr:nth-child(even) {
     color: #fff;
 }
 
-/* HOVER MODERNO */
-.menu-item:hover  {
+.menu-item {
+    width: 80px;
+    height: 80px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.menu-item .icon {
+    font-size: 35px;
+    margin-bottom: 4px;
+}
+
+.menu-item p {
+    font-size: 11px;
+    margin: 0;
+    text-align: center;
+}
+
+.menu-item:hover {
     background: #f3f3f3;
     transform: scale(1.05);
 }
 
-.menu-item-logo:hover  {
+.menu-item-logo:hover {
     background: rgb(71, 71, 71);
     transform: scale(1.05);
 }
