@@ -10,6 +10,7 @@ import { CondominioDados } from './condominio-dados/condominio-dados';
 import { CondominioDashboard } from './condominio-dashboard/condominio-dashboard';
 import { CondominioRelatorios } from './condominio-relatorios/condominio-relatorios';
 import { CondominioUnidades } from './condominio-unidades/condominio-unidades';
+import { CadastroCondominio } from './cadastro-condominio/cadastro-condominio';
 
 
 
@@ -25,7 +26,9 @@ export const routes: Routes = [
     {path: 'condominio-relatorios', component:CondominioRelatorios, title:"Relatórios"},
     {path: 'condominio-unidades', component:CondominioUnidades, title:"Unidades"},
     {path: 'pedido-login', component:PedidoDeLogin},
+    {path: 'cadastro-condominio', component:CadastroCondominio},
     {path: 'receitas', component:Receitas, title:"Receitas"}
+
 
     
 ];
