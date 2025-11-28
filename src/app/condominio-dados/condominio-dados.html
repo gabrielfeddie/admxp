@@ -1,0 +1,80 @@
+<!-- CONTEÚDO -->
+
+<app-c-sidebar-home></app-c-sidebar-home>
+
+<main class="content">
+
+
+
+    <section class="main-box">
+
+        <!-- ABAS -->
+        <div class="tabs">
+            <div class="tab-active" >DADOS</div>
+            <div class="tab" routerLink="/condominio-dashboard">DASHBOARD</div>
+            <div class="tab" routerLink="/condominio-unidades">UNIDADES</div>
+            <div class="tab" routerLink="/condominio-relatorios">RELATÓRIOS</div>
+        </div>
+
+        <!-- FORMULÁRIO -->
+        <form class="form-grid">
+
+            <div class="form-group">
+                <label>NOME DO CONDOMÍNIO</label>
+                <input type="text" placeholder="Condominio Villa Mariana I">
+            </div>
+
+            <div class="form-group">
+                <label>CNPJ</label>
+                <input type="text" placeholder="58.120.212/0001-59">
+            </div>
+
+            <div class="form-group">
+                <label>TIPO</label>
+                <input type="text" placeholder="Vertical">
+            </div>
+
+            <div class="form-group">
+                <label>CEP</label>
+                <input type="text" placeholder="58.046-700">
+            </div>
+
+            <div class="form-group">
+                <label>ENDEREÇO</label>
+                <input type="text" placeholder="Rua Rodrigues de Aquino">
+            </div>
+
+            <div class="form-group">
+                <label>COMPLEMENTO</label>
+                <input type="text" placeholder="n° 100">
+            </div>
+
+            <div class="form-group">
+                <label>BAIRRO</label>
+                <input type="text" placeholder="Oitizeiro">
+            </div>
+
+            <div class="form-group">
+                <label>CIDADE</label>
+                <input type="text" placeholder="João Pessoa">
+            </div>
+
+            <div class="form-group">
+                <label>CONTATO</label>
+                <input type="text" placeholder="83993836377">
+            </div>
+
+            <div class="form-group">
+                <label>E-MAIL</label>
+                <input type="email" placeholder="contato.villamarianares@gmail.com">
+            </div>
+
+        </form>
+
+        <button class="edit-button">EDITAR</button>
+
+    </section>
+
+</main>
+
+<router-outlet></router-outlet>

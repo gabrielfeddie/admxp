@@ -1,0 +1,69 @@
+/* SIDEBAR */
+.sidebar {
+    width: 80px;
+    height: 100vh;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+/* BLOCO */
+
+.menu-item-logo {
+    width: 80px;
+    height: 80px;
+    background: #000;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.menu-item {
+    width: 80px;
+    height: 80px;
+    background: #ffffff;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+/* ÍCONES EMOJI */
+.menu-item .icon {
+    font-size: 35px;
+    margin-bottom: 4px;
+}
+
+/* TEXTO */
+.menu-item p {
+    font-size: 11px;
+    margin: 0;
+    text-align: center;
+}
+
+.logo-icon {
+    font-size: 35px;
+    color: #fff;
+}
+
+/* HOVER MODERNO */
+.menu-item:hover  {
+    background: #f3f3f3;
+    transform: scale(1.05);
+}
+
+.menu-item-logo:hover  {
+    background: rgb(71, 71, 71);
+    transform: scale(1.05);
+}

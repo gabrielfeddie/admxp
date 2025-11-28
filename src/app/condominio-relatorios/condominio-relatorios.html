@@ -1,0 +1,34 @@
+<app-c-sidebar-home></app-c-sidebar-home>
+
+<main class="content">
+
+        
+
+        <section class="main-box">
+
+            <!-- ABAS -->
+            <div class="tabs">
+                <div class="tab" routerLink="/condominio-dados">DADOS</div>
+                <div class="tab" routerLink="/condominio-dashboard">DASHBOARD</div>
+                <div class="tab" routerLink="/condominio-unidades">UNIDADES</div>
+                <div class="tab-active">RELATÓRIOS</div>
+            </div>
+
+            <!-- OPÇÕES DE RELATÓRIO -->
+            <div class="reports-grid">
+
+                <div class="report-card" routerLink="#" >RECEITAS</div>
+
+                <div class="report-card" routerLink="#">DESPESAS</div>
+
+                <div class="report-card" routerLink="#">INFORMAÇÕES<br>CADASTRAIS</div>
+
+                <div class="report-card large" routerLink="#">INADIMPLÊNCIA</div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <router-outlet></router-outlet>

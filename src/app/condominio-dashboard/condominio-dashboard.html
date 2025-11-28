@@ -1,0 +1,89 @@
+<!-- CONTEÚDO -->
+<app-c-sidebar-home></app-c-sidebar-home>
+
+<main class="content">
+
+    <section class="main-box">
+
+        <!-- ABAS -->
+        <div class="tabs">
+            <div class="tab" routerLink="/condominio-dados">DADOS</div>
+            <div class="tab-active">DASHBOARD</div>
+            <div class="tab" routerLink="/condominio-unidades">UNIDADES</div>
+            <div class="tab" routerLink="/condominio-relatorios">RELATÓRIOS</div>
+        </div>
+
+        <h1>DASHBOARD <span>SET/2025</span></h1>
+
+        <!-- MÊS -->
+        <div class="month-selector">
+            <button>&lt;</button>
+            <div class="month">09/2025</div>
+            <button>&gt;</button>
+        </div>
+
+        <!-- PRIMEIRA LINHA DE CARDS -->
+        <div class="grid-cards">
+
+            <div class="card">
+                <p class="title">DESPESAS</p>
+
+                <div class="label-row">
+                    <span>PAGAS</span>
+                    <span>A PAGAR</span>
+                </div>
+
+                <div class="progress">
+                    <div class="progress-fill"></div>
+                </div>
+
+                <p class="percent">50%</p>
+            </div>
+
+            <div class="card">
+                <p class="title">TOTAL GASTO<br>NO MÊS</p>
+                <p class="value">R$ 50.000,00</p>
+            </div>
+
+            <div class="card">
+                <p class="title">TOTAL ARRECADADO<br>NO MÊS</p>
+                <p class="value">R$ 55.000,00</p>
+            </div>
+
+        </div>
+
+        <!-- SEGUNDA LINHA DE CARDS -->
+        <div class="grid-cards">
+
+            <div class="card">
+                <p class="title">QUANTIDADE<br>DE BOLETOS<br>PAGOS</p>
+
+                <div class="progress">
+                    <div class="progress-fill"></div>
+                </div>
+
+                <p class="percent">50%</p>
+            </div>
+
+            <div class="card">
+                <p class="title">INADIMPLÊNCIA<br>MENSAL</p>
+
+                <div class="progress">
+                    <div class="progress-fill"></div>
+                </div>
+
+                <p class="percent">50%</p>
+            </div>
+
+            <div class="card">
+                <p class="title">VENCIMENTO<br>DO SEGURO</p>
+                <p class="value">01/09/2025</p>
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<router-outlet></router-outlet>

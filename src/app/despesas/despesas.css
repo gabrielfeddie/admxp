@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f3f3f3;
+}
+
+.container {
+    display: flex;
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 120px;
+    background: #fff;
+    border-right: 2px solid #000;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-item {
+    width: 90px;
+    height: 90px;
+    border: 2px solid #000;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.menu-item img {
+    width: 45px;
+    height: 45px;
+}
+
+/* CONTEÚDO */
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+/* TOPO */
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.condo-name,
+.user-box {
+    font-size: 18px;
+}
+
+/* CAIXA PRINCIPAL */
+.main-box {
+    background: #fff;
+    border: 2px solid #e6e6e6;
+    border-radius: 20px;
+    padding: 40px;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-right: 20px;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+h1 span {
+    font-weight: bold;
+}
+
+/* MÊS */
+.month-selector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.month-selector button {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #000;
+    background: #cfcfcf;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.month {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000;
+    background: #fff;
+    margin: 0 5px;
+    font-size: 18px;
+}
+
+/* SALDOS */
+.totals {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0 20px 0;
+    font-size: 18px;
+}
+
+/* TABELA */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 17px;
+}
+
+th, td {
+    border: 2px solid #000;
+    padding: 15px;
+}
+
+th {
+    text-align: left;
+}
+
+.highlight {
+    background: #d3d3d3;
+}

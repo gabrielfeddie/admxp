@@ -1,0 +1,61 @@
+<app-c-sidebar-home></app-c-sidebar-home>
+
+<main class="content">
+
+    <section class="main-box">
+
+        <!-- ABAS -->
+        <div class="tabs">
+            <div class="tab" routerLink="/condominio-dados">DADOS</div>
+            <div class="tab" routerLink="/condominio-dashboard">DASHBOARD</div>
+            <div class="tab-active">UNIDADES</div>
+            <div class="tab" routerLink="/condominio-relatorios">RELATÓRIOS</div>
+        </div>
+
+        <!-- CÍRCULOS -->
+        <div class="circle-container">
+
+            <div class="circle">
+                <p class="circle-title">TOTAL DE<br>UNIDADES</p>
+                <p class="circle-value">2</p>
+            </div>
+
+            <div class="circle">
+                <p class="circle-title">CADASTRO<br>DE NOVA<br>UNIDADE</p>
+                <img class="icon-user" src="https://img.icons8.com/?size=512&id=23264&format=png">
+            </div>
+
+            <div class="circle">
+                <p class="circle-title">UNIDADES<br>COM ACESSO<br>AO APP</p>
+                <p class="circle-value">50%</p>
+            </div>
+
+        </div>
+
+        <!-- TABELA -->
+        <table>
+            <thead>
+                <tr>
+                    <th>UNIDADE</th>
+                    <th>NOME DO MORADOR</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr class="highlight">
+                    <td>101</td>
+                    <td>SYLVESTER MARCOS</td>
+                </tr>
+
+                <tr>
+                    <td>102</td>
+                    <td>MARCO ROGER</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+
+</main>
+
+<router-outlet></router-outlet>

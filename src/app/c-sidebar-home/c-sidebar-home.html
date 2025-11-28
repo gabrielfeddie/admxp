@@ -1,0 +1,53 @@
+<div class="faixa-superior">
+
+    <header class="top-wrapper">
+        
+        <form action="">
+            <select id="" name="" class="user-box">
+                <option value="">Condomínio Villa Mariana I</option>
+                <option value="">Condomínio Jardim I</option>
+                <option value="">Condomínio Jardim II</option>
+            </select>
+        </form>
+        <form action="">
+            <select id="" name="" class="user-box" (change)="onSelectUser($event)">
+                <option value="">👤 Usuário</option>
+                <option value="/">Sair</option>
+            </select>
+        </form>
+    </header>
+
+</div>
+
+
+
+<aside class="sidebar">
+
+    <div class="menu-item-logo" routerLink="/home">
+        <!-- Pode ser emoji, imagem, svg, o que quiser-->
+        <span class="logo-icon">🏢</span>
+    </div>
+
+    <div class="menu-item" routerLink="/receitas">
+        <span class="icon">📄</span>
+        <p>RECEITAS</p>
+    </div>
+
+    <div class="menu-item" routerLink="/despesas">
+        <span class="icon">💸</span>
+        <p>DESPESAS</p>
+    </div>
+
+    <div class="menu-item" routerLink="/financeiro">
+        <span class="icon">📊</span>
+        <p>FINANCEIRO</p>
+    </div>
+
+    <div class="menu-item" routerLink="/condominio-dados">
+        <span class="icon">🏘️</span>
+        <p>CONDOMÍNIO</p>
+    </div>
+
+</aside>
+
+<router-outlet></router-outlet>
