@@ -26,7 +26,7 @@ export const routes: Routes = [
     {path: 'condominio-relatorios', component:CondominioRelatorios, title:"Relatórios"},
     {path: 'condominio-unidades', component:CondominioUnidades, title:"Unidades"},
     {path: 'pedido-login', component:PedidoDeLogin},
-    {path: 'cadastro-condominio', component:CadastroCondominio},
+    {path: 'cadastro-condominio', component:CadastroCondominio, title:"Cadastro Novo Condomínio"},
     {path: 'receitas', component:Receitas, title:"Receitas"}
 
 
